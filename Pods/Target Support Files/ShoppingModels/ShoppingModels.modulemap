@@ -1,0 +1,6 @@
+framework module ShoppingModels {
+  umbrella header "ShoppingModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

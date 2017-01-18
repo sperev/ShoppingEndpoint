@@ -1,0 +1,6 @@
+framework module ShoppingEndpoint {
+  umbrella header "ShoppingEndpoint-umbrella.h"
+
+  export *
+  module * { export * }
+}

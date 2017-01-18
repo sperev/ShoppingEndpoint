@@ -1,0 +1,32 @@
+{
+  "name": "ShoppingEndpoint",
+  "version": "0.0.1",
+  "summary": "endpoint requests for shopping",
+  "homepage": "https://github.com/sperev/ShoppingEndpoint",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Sergei Perevoznikov": "sperev@bk.ru"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/sperev/ShoppingEndpoint.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Sources/*.swift",
+    "Sources/**/*.swift"
+  ],
+  "dependencies": {
+    "ShoppingRequest": [
+      "0.0.1"
+    ],
+    "ShoppingModels": [
+      "0.0.2"
+    ]
+  }
+}
