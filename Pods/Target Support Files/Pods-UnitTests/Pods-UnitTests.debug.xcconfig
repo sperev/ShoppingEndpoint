@@ -1,10 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs" "$PODS_CONFIGURATION_BUILD_DIR/Random" "$PODS_CONFIGURATION_BUILD_DIR/ShoppingEndpoint" "$PODS_CONFIGURATION_BUILD_DIR/ShoppingModels" "$PODS_CONFIGURATION_BUILD_DIR/ShoppingRequest"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Alamofire" "$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs" "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper" "$PODS_CONFIGURATION_BUILD_DIR/Random" "$PODS_CONFIGURATION_BUILD_DIR/ShoppingEndpoint" "$PODS_CONFIGURATION_BUILD_DIR/ShoppingModels"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs/OHHTTPStubs.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Random/Random.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ShoppingEndpoint/ShoppingEndpoint.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ShoppingModels/ShoppingModels.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ShoppingRequest/ShoppingRequest.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "OHHTTPStubs" -framework "Random" -framework "ShoppingEndpoint" -framework "ShoppingModels" -framework "ShoppingRequest"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Alamofire/Alamofire.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/OHHTTPStubs/OHHTTPStubs.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper/ObjectMapper.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Random/Random.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ShoppingEndpoint/ShoppingEndpoint.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ShoppingModels/ShoppingModels.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "OHHTTPStubs" -framework "ObjectMapper" -framework "Random" -framework "ShoppingEndpoint" -framework "ShoppingModels"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

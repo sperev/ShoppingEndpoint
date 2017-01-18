@@ -22,11 +22,14 @@
     "Sources/**/*.swift"
   ],
   "dependencies": {
-    "ShoppingRequest": [
-      "0.0.1"
+    "Alamofire": [
+      "4.2.0"
     ],
     "ShoppingModels": [
       "0.0.2"
+    ],
+    "ObjectMapper": [
+
     ]
   }
 }

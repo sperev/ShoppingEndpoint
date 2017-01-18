@@ -1,6 +1,0 @@
-framework module ShoppingRequest {
-  umbrella header "ShoppingRequest-umbrella.h"
-
-  export *
-  module * { export * }
-}
